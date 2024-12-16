@@ -3,4 +3,9 @@
   <groupId>sal.java</groupId>
   <artifactId>sal-java-playground</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <name> My Java Playground</name>
+  
+  <dependencies>
+	  
+  </dependencies>
 </project>

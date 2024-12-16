@@ -1,4 +1,4 @@
-package testclasses;
+package gettingstarted;
 
 public class J00_HelloWorld {
 	//
