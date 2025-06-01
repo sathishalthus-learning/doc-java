@@ -1,0 +1,51 @@
+Interfaces
+	- Collection
+	- List
+	- Set
+	- Queue
+	- Deque
+	- Map
+	
+Collection
+	- group of elements
+	- Collection<String> c, which can be any kind of Collection
+	- basic operations - add, remove, size, contains , iterator, isEmpty
+	- bulk operations - addAll, containsAll, removeAll, retainAll, clear
+	- stream methods - stream(), parallelStream()
+	- traversing - aggregate operations, for-each, iterator
+	
+List
+	- unordered collection, can contain duplicates
+	- operations - positional access, search, iteration, range-view
+	- implementations - ArrayList, LinkedList
+	- list algorithms - sort, reverse, shuffle, rotate, fill, copy, etc
+
+Set
+	- unordered collection, cannot contain duplicates
+	- operations - 
+	- implementations - HashSet, TreeSet, LinkedHashset
+	- special implementations - Sorted Set
+	
+Queue
+	- FIFO collection
+	- special exceptions on removal
+	- basic operation - remove/poll, peek,
+	- implementations - 
+	
+Deque
+	- double ended queue
+	- linear collection, 
+	- supports add/remove at both ends
+	- operations - add/offer, remove/poll, get/peek (First/Last)
+	- 
+	
+Map
+	- key-value pair collection, cant contain duplicate keys
+	- basic operations - put, get, contains(Key/Value), size, remove, isEmpty
+	- bulk operations - putAll, clear
+	- view operations - keySet, entrySet, values
+	- implementations - Hash<ap, TreeMap, LinkedHashMap
+	- special implementations - SortedMap
+	
+	
+	- 

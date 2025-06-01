@@ -1,4 +1,4 @@
-package java00_welcome;
+package java00_gettingStarted;
 
 public class J00_HelloWorld {
 	//

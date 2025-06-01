@@ -1,4 +1,4 @@
-package java01_languagebasics;
+package java01_languageBasics;
 
 public class J01_LanguageBasics {
 

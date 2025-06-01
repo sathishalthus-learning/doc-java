@@ -1,0 +1,38 @@
+aggregate-operations
+	- bulk operations
+	- pipelines and streams
+
+pipelines & streams
+	- sequence of operations
+	- components - a source, zero or more intermediate operations, and a terminal operation
+	- source - any input
+	- intermediate operations- uses stream
+	- terminal operation - produces non-stream result
+	
+	- uses internal iteration
+	- process elements from stream
+	- supports behavior as parameter
+
+reduction
+	- operations return a single value
+	- reduce(), collect()
+	- stream.reduce - a general purpose reduction method
+	- reduce- identity and accumulator
+	- collect - supplier & accumulator, combiner
+	
+parallelism
+	- parallel streams
+	- concurrent reduction
+	- ordering
+	- side effects:laziness, interference, stateful lambda expressions
+
+parallel streams
+	- serial, parallel
+	- invoke parallel stream
+concurrent reduction
+	- invoke concurrent methods
+ordering 
+	- depends on serial/parallel
+	
+	
+	
